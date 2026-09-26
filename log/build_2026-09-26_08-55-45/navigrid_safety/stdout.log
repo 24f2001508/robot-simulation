@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing navigrid_safety.egg-info/PKG-INFO
+writing dependency_links to navigrid_safety.egg-info/dependency_links.txt
+writing requirements to navigrid_safety.egg-info/requires.txt
+writing top-level names to navigrid_safety.egg-info/top_level.txt
+reading manifest file 'navigrid_safety.egg-info/SOURCES.txt'
+writing manifest file 'navigrid_safety.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages/navigrid-safety.egg-link (link to .)
+
+Installed /home/navab/robot-simulation/build/navigrid_safety
+running symlink_data

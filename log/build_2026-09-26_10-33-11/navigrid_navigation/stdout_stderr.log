@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing navigrid_navigation.egg-info/PKG-INFO
+writing dependency_links to navigrid_navigation.egg-info/dependency_links.txt
+writing entry points to navigrid_navigation.egg-info/entry_points.txt
+writing requirements to navigrid_navigation.egg-info/requires.txt
+writing top-level names to navigrid_navigation.egg-info/top_level.txt
+reading manifest file 'navigrid_navigation.egg-info/SOURCES.txt'
+writing manifest file 'navigrid_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid-navigation.egg-link (link to .)
+Installing odom_tf_broadcaster script to /home/navab/robot-simulation/install/navigrid_navigation/lib/navigrid_navigation
+
+Installed /home/navab/robot-simulation/build/navigrid_navigation
+running symlink_data
+symbolically linking /home/navab/robot-simulation/build/navigrid_navigation/resource/navigrid_navigation -> /home/navab/robot-simulation/install/navigrid_navigation/share/ament_index/resource_index/packages
+symbolically linking /home/navab/robot-simulation/build/navigrid_navigation/package.xml -> /home/navab/robot-simulation/install/navigrid_navigation/share/navigrid_navigation
+symbolically linking /home/navab/robot-simulation/build/navigrid_navigation/config/nav2_params.yaml -> /home/navab/robot-simulation/install/navigrid_navigation/share/navigrid_navigation/config
+symbolically linking /home/navab/robot-simulation/build/navigrid_navigation/config/slam_toolbox.yaml -> /home/navab/robot-simulation/install/navigrid_navigation/share/navigrid_navigation/config
+symbolically linking /home/navab/robot-simulation/build/navigrid_navigation/launch/navigation.launch.py -> /home/navab/robot-simulation/install/navigrid_navigation/share/navigrid_navigation/launch

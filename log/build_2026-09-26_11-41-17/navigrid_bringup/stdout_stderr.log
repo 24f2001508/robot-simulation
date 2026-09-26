@@ -1,0 +1,27 @@
+running develop
+Removing /home/navab/robot-simulation/install/navigrid_bringup/lib/python3.12/site-packages/navigrid-bringup.egg-link (link to .)
+running egg_info
+writing ../../build/navigrid_bringup/navigrid_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/navigrid_bringup/navigrid_bringup.egg-info/dependency_links.txt
+writing requirements to ../../build/navigrid_bringup/navigrid_bringup.egg-info/requires.txt
+writing top-level names to ../../build/navigrid_bringup/navigrid_bringup.egg-info/top_level.txt
+reading manifest file '../../build/navigrid_bringup/navigrid_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/navigrid_bringup/navigrid_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/navab/robot-simulation/build/navigrid_bringup/build
+creating /home/navab/robot-simulation/build/navigrid_bringup/build/lib
+creating /home/navab/robot-simulation/build/navigrid_bringup/build/lib/navigrid_bringup
+copying navigrid_bringup/__init__.py -> /home/navab/robot-simulation/build/navigrid_bringup/build/lib/navigrid_bringup
+running install
+running install_lib
+creating /home/navab/robot-simulation/install/navigrid_bringup/lib/python3.12/site-packages/navigrid_bringup
+copying /home/navab/robot-simulation/build/navigrid_bringup/build/lib/navigrid_bringup/__init__.py -> /home/navab/robot-simulation/install/navigrid_bringup/lib/python3.12/site-packages/navigrid_bringup
+byte-compiling /home/navab/robot-simulation/install/navigrid_bringup/lib/python3.12/site-packages/navigrid_bringup/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/navigrid_bringup -> /home/navab/robot-simulation/install/navigrid_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/navab/robot-simulation/install/navigrid_bringup/share/navigrid_bringup
+running install_egg_info
+Copying ../../build/navigrid_bringup/navigrid_bringup.egg-info to /home/navab/robot-simulation/install/navigrid_bringup/lib/python3.12/site-packages/navigrid_bringup-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/navab/robot-simulation/build/navigrid_bringup/install.log'

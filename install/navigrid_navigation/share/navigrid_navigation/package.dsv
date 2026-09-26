@@ -1,0 +1,4 @@
+source;share/navigrid_navigation/hook/pythonpath.dsv
+source;share/navigrid_navigation/hook/pythonpath.sh
+source;share/navigrid_navigation/hook/ament_prefix_path.dsv
+source;share/navigrid_navigation/hook/ament_prefix_path.sh

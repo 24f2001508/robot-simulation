@@ -1,0 +1,17 @@
+[8.900s] Invoking command in '/home/navab/robot-simulation/build/navigrid_navigation': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/navab/robot-simulation/build/navigrid_navigation/build --no-deps symlink_data
+[10.192s] running develop
+[10.935s] running egg_info
+[11.002s] writing navigrid_navigation.egg-info/PKG-INFO
+[11.002s] writing dependency_links to navigrid_navigation.egg-info/dependency_links.txt
+[11.002s] writing entry points to navigrid_navigation.egg-info/entry_points.txt
+[11.003s] writing requirements to navigrid_navigation.egg-info/requires.txt
+[11.004s] writing top-level names to navigrid_navigation.egg-info/top_level.txt
+[11.081s] reading manifest file 'navigrid_navigation.egg-info/SOURCES.txt'
+[11.083s] writing manifest file 'navigrid_navigation.egg-info/SOURCES.txt'
+[11.127s] running build_ext
+[11.129s] Creating /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid-navigation.egg-link (link to .)
+[11.130s] Installing odom_tf_broadcaster script to /home/navab/robot-simulation/install/navigrid_navigation/lib/navigrid_navigation
+[11.130s] 
+[11.130s] Installed /home/navab/robot-simulation/build/navigrid_navigation
+[11.130s] running symlink_data
+[11.224s] Invoked command in '/home/navab/robot-simulation/build/navigrid_navigation' returned '0': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/navab/robot-simulation/build/navigrid_navigation/build --no-deps symlink_data

@@ -1,0 +1,31 @@
+running develop
+Removing /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid-navigation.egg-link (link to .)
+running egg_info
+writing ../../build/navigrid_navigation/navigrid_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/navigrid_navigation/navigrid_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/navigrid_navigation/navigrid_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/navigrid_navigation/navigrid_navigation.egg-info/requires.txt
+writing top-level names to ../../build/navigrid_navigation/navigrid_navigation.egg-info/top_level.txt
+reading manifest file '../../build/navigrid_navigation/navigrid_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/navigrid_navigation/navigrid_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+copying navigrid_navigation/odom_tf_broadcaster.py -> /home/navab/robot-simulation/build/navigrid_navigation/build/lib/navigrid_navigation
+running install
+running install_lib
+creating /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid_navigation
+copying /home/navab/robot-simulation/build/navigrid_navigation/build/lib/navigrid_navigation/odom_tf_broadcaster.py -> /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid_navigation
+copying /home/navab/robot-simulation/build/navigrid_navigation/build/lib/navigrid_navigation/__init__.py -> /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid_navigation
+byte-compiling /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid_navigation/odom_tf_broadcaster.py to odom_tf_broadcaster.cpython-312.pyc
+byte-compiling /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid_navigation/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/navigrid_navigation -> /home/navab/robot-simulation/install/navigrid_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/navab/robot-simulation/install/navigrid_navigation/share/navigrid_navigation
+copying config/nav2_params.yaml -> /home/navab/robot-simulation/install/navigrid_navigation/share/navigrid_navigation/config
+copying config/slam_toolbox.yaml -> /home/navab/robot-simulation/install/navigrid_navigation/share/navigrid_navigation/config
+copying launch/navigation.launch.py -> /home/navab/robot-simulation/install/navigrid_navigation/share/navigrid_navigation/launch
+running install_egg_info
+Copying ../../build/navigrid_navigation/navigrid_navigation.egg-info to /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid_navigation-0.0.0-py3.12.egg-info
+running install_scripts
+Installing odom_tf_broadcaster script to /home/navab/robot-simulation/install/navigrid_navigation/lib/navigrid_navigation
+writing list of installed files to '/home/navab/robot-simulation/build/navigrid_navigation/install.log'

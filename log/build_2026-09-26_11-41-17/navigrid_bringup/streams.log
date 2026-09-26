@@ -1,0 +1,31 @@
+[2.305s] Invoking command in '/home/navab/robot-simulation/build/navigrid_bringup': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/navab/robot-simulation/build/navigrid_bringup/build
+[2.785s] running develop
+[3.086s] Removing /home/navab/robot-simulation/install/navigrid_bringup/lib/python3.12/site-packages/navigrid-bringup.egg-link (link to .)
+[3.169s] Invoked command in '/home/navab/robot-simulation/build/navigrid_bringup' returned '0': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/navab/robot-simulation/build/navigrid_bringup/build
+[3.171s] Invoking command in '/home/navab/robot-simulation/src/navigrid_bringup': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigrid_bringup build --build-base /home/navab/robot-simulation/build/navigrid_bringup/build install --record /home/navab/robot-simulation/build/navigrid_bringup/install.log --install-scripts $base/lib/navigrid_bringup --single-version-externally-managed install_data --force
+[3.654s] running egg_info
+[3.655s] writing ../../build/navigrid_bringup/navigrid_bringup.egg-info/PKG-INFO
+[3.655s] writing dependency_links to ../../build/navigrid_bringup/navigrid_bringup.egg-info/dependency_links.txt
+[3.656s] writing requirements to ../../build/navigrid_bringup/navigrid_bringup.egg-info/requires.txt
+[3.658s] writing top-level names to ../../build/navigrid_bringup/navigrid_bringup.egg-info/top_level.txt
+[3.743s] reading manifest file '../../build/navigrid_bringup/navigrid_bringup.egg-info/SOURCES.txt'
+[3.745s] writing manifest file '../../build/navigrid_bringup/navigrid_bringup.egg-info/SOURCES.txt'
+[3.746s] running build
+[3.746s] running build_py
+[3.749s] creating /home/navab/robot-simulation/build/navigrid_bringup/build
+[3.750s] creating /home/navab/robot-simulation/build/navigrid_bringup/build/lib
+[3.751s] creating /home/navab/robot-simulation/build/navigrid_bringup/build/lib/navigrid_bringup
+[3.752s] copying navigrid_bringup/__init__.py -> /home/navab/robot-simulation/build/navigrid_bringup/build/lib/navigrid_bringup
+[3.753s] running install
+[3.765s] running install_lib
+[3.805s] creating /home/navab/robot-simulation/install/navigrid_bringup/lib/python3.12/site-packages/navigrid_bringup
+[3.805s] copying /home/navab/robot-simulation/build/navigrid_bringup/build/lib/navigrid_bringup/__init__.py -> /home/navab/robot-simulation/install/navigrid_bringup/lib/python3.12/site-packages/navigrid_bringup
+[3.805s] byte-compiling /home/navab/robot-simulation/install/navigrid_bringup/lib/python3.12/site-packages/navigrid_bringup/__init__.py to __init__.cpython-312.pyc
+[3.806s] running install_data
+[3.806s] copying resource/navigrid_bringup -> /home/navab/robot-simulation/install/navigrid_bringup/share/ament_index/resource_index/packages
+[3.809s] copying package.xml -> /home/navab/robot-simulation/install/navigrid_bringup/share/navigrid_bringup
+[3.809s] running install_egg_info
+[3.858s] Copying ../../build/navigrid_bringup/navigrid_bringup.egg-info to /home/navab/robot-simulation/install/navigrid_bringup/lib/python3.12/site-packages/navigrid_bringup-0.0.0-py3.12.egg-info
+[3.867s] running install_scripts
+[4.070s] writing list of installed files to '/home/navab/robot-simulation/build/navigrid_bringup/install.log'
+[4.147s] Invoked command in '/home/navab/robot-simulation/src/navigrid_bringup' returned '0': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigrid_bringup build --build-base /home/navab/robot-simulation/build/navigrid_bringup/build install --record /home/navab/robot-simulation/build/navigrid_bringup/install.log --install-scripts $base/lib/navigrid_bringup --single-version-externally-managed install_data --force

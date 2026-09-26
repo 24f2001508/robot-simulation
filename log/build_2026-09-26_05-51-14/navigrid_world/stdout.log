@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating navigrid_world.egg-info
+writing navigrid_world.egg-info/PKG-INFO
+writing dependency_links to navigrid_world.egg-info/dependency_links.txt
+writing requirements to navigrid_world.egg-info/requires.txt
+writing top-level names to navigrid_world.egg-info/top_level.txt
+writing manifest file 'navigrid_world.egg-info/SOURCES.txt'
+reading manifest file 'navigrid_world.egg-info/SOURCES.txt'
+writing manifest file 'navigrid_world.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/navab/robot-simulation/install/navigrid_world/lib/python3.12/site-packages/navigrid-world.egg-link (link to .)
+
+Installed /home/navab/robot-simulation/build/navigrid_world
+running symlink_data
+creating /home/navab/robot-simulation/install/navigrid_world/share/ament_index
+creating /home/navab/robot-simulation/install/navigrid_world/share/ament_index/resource_index
+creating /home/navab/robot-simulation/install/navigrid_world/share/ament_index/resource_index/packages
+symbolically linking /home/navab/robot-simulation/build/navigrid_world/resource/navigrid_world -> /home/navab/robot-simulation/install/navigrid_world/share/ament_index/resource_index/packages
+symbolically linking /home/navab/robot-simulation/build/navigrid_world/package.xml -> /home/navab/robot-simulation/install/navigrid_world/share/navigrid_world

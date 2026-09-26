@@ -1,0 +1,19 @@
+[9.044s] Invoking command in '/home/navab/robot-simulation/build/navigrid_description': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/navab/robot-simulation/build/navigrid_description/build --no-deps symlink_data
+[10.533s] running develop
+[11.496s] running egg_info
+[11.571s] writing navigrid_description.egg-info/PKG-INFO
+[11.571s] writing dependency_links to navigrid_description.egg-info/dependency_links.txt
+[11.571s] writing requirements to navigrid_description.egg-info/requires.txt
+[11.575s] writing top-level names to navigrid_description.egg-info/top_level.txt
+[11.666s] reading manifest file 'navigrid_description.egg-info/SOURCES.txt'
+[11.672s] writing manifest file 'navigrid_description.egg-info/SOURCES.txt'
+[11.722s] running build_ext
+[11.722s] Creating /home/navab/robot-simulation/install/navigrid_description/lib/python3.12/site-packages/navigrid-description.egg-link (link to .)
+[11.723s] 
+[11.723s] Installed /home/navab/robot-simulation/build/navigrid_description
+[11.723s] running symlink_data
+[11.724s] creating /home/navab/robot-simulation/install/navigrid_description/share/navigrid_description/urdf
+[11.726s] symbolically linking /home/navab/robot-simulation/build/navigrid_description/urdf/navigrid_robot.urdf -> /home/navab/robot-simulation/install/navigrid_description/share/navigrid_description/urdf
+[11.732s] creating /home/navab/robot-simulation/install/navigrid_description/share/navigrid_description/launch
+[11.738s] symbolically linking /home/navab/robot-simulation/build/navigrid_description/launch/robot_gazebo.launch.py -> /home/navab/robot-simulation/install/navigrid_description/share/navigrid_description/launch
+[11.868s] Invoked command in '/home/navab/robot-simulation/build/navigrid_description' returned '0': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/navab/robot-simulation/build/navigrid_description/build --no-deps symlink_data

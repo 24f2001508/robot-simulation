@@ -1,0 +1,15 @@
+[10.492s] Invoking command in '/home/navab/robot-simulation/build/navigrid_planner': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_planner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/navab/robot-simulation/build/navigrid_planner/build --no-deps symlink_data
+[11.993s] running develop
+[12.840s] running egg_info
+[12.873s] writing navigrid_planner.egg-info/PKG-INFO
+[12.874s] writing dependency_links to navigrid_planner.egg-info/dependency_links.txt
+[12.875s] writing requirements to navigrid_planner.egg-info/requires.txt
+[12.875s] writing top-level names to navigrid_planner.egg-info/top_level.txt
+[13.008s] reading manifest file 'navigrid_planner.egg-info/SOURCES.txt'
+[13.020s] writing manifest file 'navigrid_planner.egg-info/SOURCES.txt'
+[13.081s] running build_ext
+[13.082s] Creating /home/navab/robot-simulation/install/navigrid_planner/lib/python3.12/site-packages/navigrid-planner.egg-link (link to .)
+[13.084s] 
+[13.084s] Installed /home/navab/robot-simulation/build/navigrid_planner
+[13.084s] running symlink_data
+[13.177s] Invoked command in '/home/navab/robot-simulation/build/navigrid_planner' returned '0': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_planner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/navab/robot-simulation/build/navigrid_planner/build --no-deps symlink_data

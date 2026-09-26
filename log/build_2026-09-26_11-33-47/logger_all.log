@@ -1,0 +1,272 @@
+[-1.033s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'navigrid_safety']
+[-1.033s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['navigrid_safety'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a981fe1bad0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a981fe1b680>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a981fe1b680>>)
+[-0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[-0.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[-0.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[-0.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[-0.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[-0.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[-0.919s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/navab/robot-simulation'
+[-0.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[-0.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[-0.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[-0.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[-0.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[-0.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[-0.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[-0.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[-0.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[-0.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[-0.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[-0.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[-0.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[-0.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[-0.851s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[-0.851s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[-0.851s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[-0.850s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[-0.850s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[-0.850s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[-0.850s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[-0.850s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[-0.850s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[-0.849s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extensions ['ignore', 'ignore_ament_install']
+[-0.849s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extension 'ignore'
+[-0.849s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extension 'ignore_ament_install'
+[-0.849s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extensions ['colcon_pkg']
+[-0.849s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extension 'colcon_pkg'
+[-0.849s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extensions ['colcon_meta']
+[-0.849s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extension 'colcon_meta'
+[-0.849s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extensions ['ros']
+[-0.849s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extension 'ros'
+[-0.849s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extensions ['cmake', 'python']
+[-0.849s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extension 'cmake'
+[-0.849s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extension 'python'
+[-0.849s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extensions ['python_setup_py']
+[-0.849s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extension 'python_setup_py'
+[-0.848s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/config) by extensions ['ignore', 'ignore_ament_install']
+[-0.848s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/config) by extension 'ignore'
+[-0.848s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/config) by extension 'ignore_ament_install'
+[-0.848s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/config) by extensions ['colcon_pkg']
+[-0.848s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/config) by extension 'colcon_pkg'
+[-0.848s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/config) by extensions ['colcon_meta']
+[-0.848s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/config) by extension 'colcon_meta'
+[-0.848s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/config) by extensions ['ros']
+[-0.848s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/config) by extension 'ros'
+[-0.848s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/config) by extensions ['cmake', 'python']
+[-0.848s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/config) by extension 'cmake'
+[-0.848s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/config) by extension 'python'
+[-0.848s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/config) by extensions ['python_setup_py']
+[-0.848s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/config) by extension 'python_setup_py'
+[-0.847s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/launch) by extensions ['ignore', 'ignore_ament_install']
+[-0.847s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/launch) by extension 'ignore'
+[-0.847s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/launch) by extension 'ignore_ament_install'
+[-0.847s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/launch) by extensions ['colcon_pkg']
+[-0.847s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/launch) by extension 'colcon_pkg'
+[-0.847s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/launch) by extensions ['colcon_meta']
+[-0.847s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/launch) by extension 'colcon_meta'
+[-0.847s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/launch) by extensions ['ros']
+[-0.847s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/launch) by extension 'ros'
+[-0.847s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/launch) by extensions ['cmake', 'python']
+[-0.847s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/launch) by extension 'cmake'
+[-0.847s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/launch) by extension 'python'
+[-0.847s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/launch) by extensions ['python_setup_py']
+[-0.847s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/launch) by extension 'python_setup_py'
+[-0.846s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/urdf) by extensions ['ignore', 'ignore_ament_install']
+[-0.846s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/urdf) by extension 'ignore'
+[-0.846s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/urdf) by extension 'ignore_ament_install'
+[-0.846s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/urdf) by extensions ['colcon_pkg']
+[-0.846s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/urdf) by extension 'colcon_pkg'
+[-0.846s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/urdf) by extensions ['colcon_meta']
+[-0.846s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/urdf) by extension 'colcon_meta'
+[-0.846s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/urdf) by extensions ['ros']
+[-0.846s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/urdf) by extension 'ros'
+[-0.846s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/urdf) by extensions ['cmake', 'python']
+[-0.846s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/urdf) by extension 'cmake'
+[-0.846s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/urdf) by extension 'python'
+[-0.846s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/urdf) by extensions ['python_setup_py']
+[-0.846s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description/urdf) by extension 'python_setup_py'
+[-0.844s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['ignore', 'ignore_ament_install']
+[-0.844s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'ignore'
+[-0.844s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'ignore_ament_install'
+[-0.844s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['colcon_pkg']
+[-0.844s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'colcon_pkg'
+[-0.844s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['colcon_meta']
+[-0.844s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'colcon_meta'
+[-0.844s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['ros']
+[-0.844s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'ros'
+[-0.844s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['cmake', 'python']
+[-0.843s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'cmake'
+[-0.843s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'python'
+[-0.843s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['python_setup_py']
+[-0.843s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'python_setup_py'
+[-0.842s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[-0.842s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[-0.842s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[-0.842s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[-0.842s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[-0.842s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[-0.842s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[-0.842s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[-0.842s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[-0.842s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[-0.842s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[-0.842s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[-0.842s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[-0.842s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[-0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[-0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[-0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[-0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[-0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[-0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[-0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[-0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[-0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[-0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[-0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[-0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[-0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[-0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[-0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_bringup) by extensions ['ignore', 'ignore_ament_install']
+[-0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_bringup) by extension 'ignore'
+[-0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_bringup) by extension 'ignore_ament_install'
+[-0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_bringup) by extensions ['colcon_pkg']
+[-0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_bringup) by extension 'colcon_pkg'
+[-0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_bringup) by extensions ['colcon_meta']
+[-0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_bringup) by extension 'colcon_meta'
+[-0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_bringup) by extensions ['ros']
+[-0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_bringup) by extension 'ros'
+[-0.832s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigrid_bringup' with type 'ros.ament_python' and name 'navigrid_bringup'
+[-0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_description) by extensions ['ignore', 'ignore_ament_install']
+[-0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_description) by extension 'ignore'
+[-0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_description) by extension 'ignore_ament_install'
+[-0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_description) by extensions ['colcon_pkg']
+[-0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_description) by extension 'colcon_pkg'
+[-0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_description) by extensions ['colcon_meta']
+[-0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_description) by extension 'colcon_meta'
+[-0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_description) by extensions ['ros']
+[-0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_description) by extension 'ros'
+[-0.831s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigrid_description' with type 'ros.ament_python' and name 'navigrid_description'
+[-0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_navigation) by extensions ['ignore', 'ignore_ament_install']
+[-0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_navigation) by extension 'ignore'
+[-0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_navigation) by extension 'ignore_ament_install'
+[-0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_navigation) by extensions ['colcon_pkg']
+[-0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_navigation) by extension 'colcon_pkg'
+[-0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_navigation) by extensions ['colcon_meta']
+[-0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_navigation) by extension 'colcon_meta'
+[-0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_navigation) by extensions ['ros']
+[-0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_navigation) by extension 'ros'
+[-0.829s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigrid_navigation' with type 'ros.ament_python' and name 'navigrid_navigation'
+[-0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_planner) by extensions ['ignore', 'ignore_ament_install']
+[-0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_planner) by extension 'ignore'
+[-0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_planner) by extension 'ignore_ament_install'
+[-0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_planner) by extensions ['colcon_pkg']
+[-0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_planner) by extension 'colcon_pkg'
+[-0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_planner) by extensions ['colcon_meta']
+[-0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_planner) by extension 'colcon_meta'
+[-0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_planner) by extensions ['ros']
+[-0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_planner) by extension 'ros'
+[-0.826s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigrid_planner' with type 'ros.ament_python' and name 'navigrid_planner'
+[-0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_safety) by extensions ['ignore', 'ignore_ament_install']
+[-0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_safety) by extension 'ignore'
+[-0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_safety) by extension 'ignore_ament_install'
+[-0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_safety) by extensions ['colcon_pkg']
+[-0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_safety) by extension 'colcon_pkg'
+[-0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_safety) by extensions ['colcon_meta']
+[-0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_safety) by extension 'colcon_meta'
+[-0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_safety) by extensions ['ros']
+[-0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_safety) by extension 'ros'
+[-0.825s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigrid_safety' with type 'ros.ament_python' and name 'navigrid_safety'
+[-0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_world) by extensions ['ignore', 'ignore_ament_install']
+[-0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_world) by extension 'ignore'
+[-0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_world) by extension 'ignore_ament_install'
+[-0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_world) by extensions ['colcon_pkg']
+[-0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_world) by extension 'colcon_pkg'
+[-0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_world) by extensions ['colcon_meta']
+[-0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_world) by extension 'colcon_meta'
+[-0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_world) by extensions ['ros']
+[-0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigrid_world) by extension 'ros'
+[-0.824s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigrid_world' with type 'ros.ament_python' and name 'navigrid_world'
+[-0.822s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['ignore', 'ignore_ament_install']
+[-0.822s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ignore'
+[-0.822s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ignore_ament_install'
+[-0.822s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['colcon_pkg']
+[-0.822s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'colcon_pkg'
+[-0.822s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['colcon_meta']
+[-0.822s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'colcon_meta'
+[-0.822s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['ros']
+[-0.822s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ros'
+[-0.822s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['cmake', 'python']
+[-0.822s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'cmake'
+[-0.821s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'python'
+[-0.821s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['python_setup_py']
+[-0.821s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'python_setup_py'
+[-0.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[-0.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[-0.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[-0.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[-0.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[-0.777s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navigrid_bringup' in 'src/navigrid_bringup'
+[-0.777s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navigrid_description' in 'src/navigrid_description'
+[-0.777s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navigrid_navigation' in 'src/navigrid_navigation'
+[-0.777s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navigrid_planner' in 'src/navigrid_planner'
+[-0.777s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navigrid_world' in 'src/navigrid_world'
+[-0.777s] Level 5:colcon.colcon_core.verb:set package 'navigrid_safety' build argument 'cmake_args' from command line to 'None'
+[-0.777s] Level 5:colcon.colcon_core.verb:set package 'navigrid_safety' build argument 'cmake_target' from command line to 'None'
+[-0.776s] Level 5:colcon.colcon_core.verb:set package 'navigrid_safety' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-0.776s] Level 5:colcon.colcon_core.verb:set package 'navigrid_safety' build argument 'cmake_clean_cache' from command line to 'False'
+[-0.776s] Level 5:colcon.colcon_core.verb:set package 'navigrid_safety' build argument 'cmake_clean_first' from command line to 'False'
+[-0.776s] Level 5:colcon.colcon_core.verb:set package 'navigrid_safety' build argument 'cmake_force_configure' from command line to 'False'
+[-0.776s] Level 5:colcon.colcon_core.verb:set package 'navigrid_safety' build argument 'ament_cmake_args' from command line to 'None'
+[-0.776s] Level 5:colcon.colcon_core.verb:set package 'navigrid_safety' build argument 'catkin_cmake_args' from command line to 'None'
+[-0.776s] Level 5:colcon.colcon_core.verb:set package 'navigrid_safety' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-0.776s] DEBUG:colcon.colcon_core.verb:Building package 'navigrid_safety' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/navab/robot-simulation/build/navigrid_safety', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/navab/robot-simulation/install/navigrid_safety', 'merge_install': False, 'path': '/home/navab/robot-simulation/src/navigrid_safety', 'symlink_install': False, 'test_result_base': None}
+[-0.776s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[-0.775s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[-0.775s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/navab/robot-simulation/src/navigrid_safety' with build type 'ament_python'
+[-0.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigrid_safety', 'ament_prefix_path')
+[-0.768s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[-0.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navab/robot-simulation/install/navigrid_safety/share/navigrid_safety/hook/ament_prefix_path.dsv'
+[-0.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navab/robot-simulation/install/navigrid_safety/share/navigrid_safety/hook/ament_prefix_path.sh'
+[-0.763s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-0.423s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/navab/robot-simulation/src/navigrid_safety'
+[-0.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.504s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: extract_messages, bdist_egg, check, test, install_scripts, sdist, setopt, build_clib, install_headers, dist_info, update_catalog, install_lib, build_py, init_catalog, upload_docs, upload, build_ext, rotate, alias, saveopts, install_egg_info, build_scripts, bdist_rpm, build, bdist, symlink_data, egg_info, easy_install, install, bdist_dumb, compile_catalog, clean, register, editable_wheel, develop, install_data
+[0.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navab/robot-simulation/build/navigrid_safety': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_safety/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/navab/robot-simulation/build/navigrid_safety/build
+[1.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navab/robot-simulation/build/navigrid_safety' returned '0': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_safety/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/navab/robot-simulation/build/navigrid_safety/build
+[1.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navab/robot-simulation/src/navigrid_safety': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_safety/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigrid_safety build --build-base /home/navab/robot-simulation/build/navigrid_safety/build install --record /home/navab/robot-simulation/build/navigrid_safety/install.log --install-scripts $base/lib/navigrid_safety --single-version-externally-managed install_data --force
+[1.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navab/robot-simulation/src/navigrid_safety' returned '0': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_safety/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigrid_safety build --build-base /home/navab/robot-simulation/build/navigrid_safety/build install --record /home/navab/robot-simulation/build/navigrid_safety/install.log --install-scripts $base/lib/navigrid_safety --single-version-externally-managed install_data --force
+[1.612s] Level 1:colcon.colcon_core.environment:checking '/home/navab/robot-simulation/install/navigrid_safety' for CMake module files
+[1.613s] Level 1:colcon.colcon_core.environment:checking '/home/navab/robot-simulation/install/navigrid_safety' for CMake config files
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/navab/robot-simulation/install/navigrid_safety/lib'
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/navab/robot-simulation/install/navigrid_safety/bin'
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/navab/robot-simulation/install/navigrid_safety/lib/pkgconfig/navigrid_safety.pc'
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages'
+[1.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigrid_safety', 'pythonpath')
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navab/robot-simulation/install/navigrid_safety/share/navigrid_safety/hook/pythonpath.dsv'
+[1.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navab/robot-simulation/install/navigrid_safety/share/navigrid_safety/hook/pythonpath.sh'
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/navab/robot-simulation/install/navigrid_safety/bin'
+[1.620s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigrid_safety)
+[1.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navab/robot-simulation/install/navigrid_safety/share/navigrid_safety/package.dsv'
+[1.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/navab/robot-simulation/install/navigrid_safety/share/navigrid_safety/package.sh'
+[1.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/navab/robot-simulation/install/navigrid_safety/share/navigrid_safety/package.bash'
+[1.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/navab/robot-simulation/install/navigrid_safety/share/navigrid_safety/package.zsh'
+[1.623s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navab/robot-simulation/install/navigrid_safety/share/colcon-core/packages/navigrid_safety)
+[1.623s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.624s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.624s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.624s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.747s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.748s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.748s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.748s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.755s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[1.755s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.756s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navab/robot-simulation/install/local_setup.sh'
+[1.758s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/navab/robot-simulation/install/_local_setup_util_sh.py'
+[1.760s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navab/robot-simulation/install/setup.sh'
+[1.761s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navab/robot-simulation/install/local_setup.bash'
+[1.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navab/robot-simulation/install/setup.bash'
+[1.763s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navab/robot-simulation/install/local_setup.zsh'
+[1.765s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navab/robot-simulation/install/setup.zsh'

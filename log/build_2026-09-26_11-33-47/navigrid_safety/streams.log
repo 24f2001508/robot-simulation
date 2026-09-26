@@ -1,0 +1,36 @@
+[1.285s] Invoking command in '/home/navab/robot-simulation/build/navigrid_safety': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_safety/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/navab/robot-simulation/build/navigrid_safety/build
+[1.685s] running develop
+[1.825s] Removing /home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages/navigrid-safety.egg-link (link to .)
+[1.860s] Invoked command in '/home/navab/robot-simulation/build/navigrid_safety' returned '0': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_safety/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/navab/robot-simulation/build/navigrid_safety/build
+[1.863s] Invoking command in '/home/navab/robot-simulation/src/navigrid_safety': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_safety/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigrid_safety build --build-base /home/navab/robot-simulation/build/navigrid_safety/build install --record /home/navab/robot-simulation/build/navigrid_safety/install.log --install-scripts $base/lib/navigrid_safety --single-version-externally-managed install_data --force
+[2.114s] running egg_info
+[2.127s] writing ../../build/navigrid_safety/navigrid_safety.egg-info/PKG-INFO
+[2.128s] writing dependency_links to ../../build/navigrid_safety/navigrid_safety.egg-info/dependency_links.txt
+[2.129s] writing entry points to ../../build/navigrid_safety/navigrid_safety.egg-info/entry_points.txt
+[2.129s] writing requirements to ../../build/navigrid_safety/navigrid_safety.egg-info/requires.txt
+[2.130s] writing top-level names to ../../build/navigrid_safety/navigrid_safety.egg-info/top_level.txt
+[2.164s] reading manifest file '../../build/navigrid_safety/navigrid_safety.egg-info/SOURCES.txt'
+[2.165s] writing manifest file '../../build/navigrid_safety/navigrid_safety.egg-info/SOURCES.txt'
+[2.165s] running build
+[2.165s] running build_py
+[2.165s] creating /home/navab/robot-simulation/build/navigrid_safety/build
+[2.166s] creating /home/navab/robot-simulation/build/navigrid_safety/build/lib
+[2.167s] creating /home/navab/robot-simulation/build/navigrid_safety/build/lib/navigrid_safety
+[2.167s] copying navigrid_safety/safety_override.py -> /home/navab/robot-simulation/build/navigrid_safety/build/lib/navigrid_safety
+[2.168s] copying navigrid_safety/__init__.py -> /home/navab/robot-simulation/build/navigrid_safety/build/lib/navigrid_safety
+[2.169s] running install
+[2.174s] running install_lib
+[2.193s] creating /home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages/navigrid_safety
+[2.194s] copying /home/navab/robot-simulation/build/navigrid_safety/build/lib/navigrid_safety/safety_override.py -> /home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages/navigrid_safety
+[2.195s] copying /home/navab/robot-simulation/build/navigrid_safety/build/lib/navigrid_safety/__init__.py -> /home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages/navigrid_safety
+[2.197s] byte-compiling /home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages/navigrid_safety/safety_override.py to safety_override.cpython-312.pyc
+[2.199s] byte-compiling /home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages/navigrid_safety/__init__.py to __init__.cpython-312.pyc
+[2.201s] running install_data
+[2.201s] copying resource/navigrid_safety -> /home/navab/robot-simulation/install/navigrid_safety/share/ament_index/resource_index/packages
+[2.202s] copying package.xml -> /home/navab/robot-simulation/install/navigrid_safety/share/navigrid_safety
+[2.203s] running install_egg_info
+[2.220s] Copying ../../build/navigrid_safety/navigrid_safety.egg-info to /home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages/navigrid_safety-0.0.0-py3.12.egg-info
+[2.224s] running install_scripts
+[2.346s] Installing safety_override script to /home/navab/robot-simulation/install/navigrid_safety/lib/navigrid_safety
+[2.349s] writing list of installed files to '/home/navab/robot-simulation/build/navigrid_safety/install.log'
+[2.381s] Invoked command in '/home/navab/robot-simulation/src/navigrid_safety' returned '0': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_safety/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigrid_safety build --build-base /home/navab/robot-simulation/build/navigrid_safety/build install --record /home/navab/robot-simulation/build/navigrid_safety/install.log --install-scripts $base/lib/navigrid_safety --single-version-externally-managed install_data --force

@@ -1,0 +1,16 @@
+[2.221s] Invoking command in '/home/navab/robot-simulation/build/navigrid_navigation': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/navab/robot-simulation/build/navigrid_navigation/build --no-deps symlink_data
+[2.515s] running develop
+[2.685s] running egg_info
+[2.700s] writing navigrid_navigation.egg-info/PKG-INFO
+[2.702s] writing dependency_links to navigrid_navigation.egg-info/dependency_links.txt
+[2.702s] writing requirements to navigrid_navigation.egg-info/requires.txt
+[2.702s] writing top-level names to navigrid_navigation.egg-info/top_level.txt
+[2.729s] reading manifest file 'navigrid_navigation.egg-info/SOURCES.txt'
+[2.730s] writing manifest file 'navigrid_navigation.egg-info/SOURCES.txt'
+[2.746s] running build_ext
+[2.747s] Creating /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid-navigation.egg-link (link to .)
+[2.750s] 
+[2.750s] Installed /home/navab/robot-simulation/build/navigrid_navigation
+[2.750s] running symlink_data
+[2.751s] symbolically linking /home/navab/robot-simulation/build/navigrid_navigation/config/slam_toolbox.yaml -> /home/navab/robot-simulation/install/navigrid_navigation/share/navigrid_navigation/config
+[2.787s] Invoked command in '/home/navab/robot-simulation/build/navigrid_navigation' returned '0': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/navab/robot-simulation/build/navigrid_navigation/build --no-deps symlink_data

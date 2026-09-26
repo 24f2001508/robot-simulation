@@ -1,0 +1,39 @@
+[2.055s] Invoking command in '/home/navab/robot-simulation/build/navigrid_navigation': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/navab/robot-simulation/build/navigrid_navigation/build
+[2.619s] running develop
+[2.941s] Removing /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid-navigation.egg-link (link to .)
+[3.010s] Invoked command in '/home/navab/robot-simulation/build/navigrid_navigation' returned '0': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/navab/robot-simulation/build/navigrid_navigation/build
+[3.011s] Invoking command in '/home/navab/robot-simulation/src/navigrid_navigation': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigrid_navigation build --build-base /home/navab/robot-simulation/build/navigrid_navigation/build install --record /home/navab/robot-simulation/build/navigrid_navigation/install.log --install-scripts $base/lib/navigrid_navigation --single-version-externally-managed install_data --force
+[3.527s] running egg_info
+[3.564s] writing ../../build/navigrid_navigation/navigrid_navigation.egg-info/PKG-INFO
+[3.565s] writing dependency_links to ../../build/navigrid_navigation/navigrid_navigation.egg-info/dependency_links.txt
+[3.565s] writing entry points to ../../build/navigrid_navigation/navigrid_navigation.egg-info/entry_points.txt
+[3.565s] writing requirements to ../../build/navigrid_navigation/navigrid_navigation.egg-info/requires.txt
+[3.566s] writing top-level names to ../../build/navigrid_navigation/navigrid_navigation.egg-info/top_level.txt
+[3.636s] reading manifest file '../../build/navigrid_navigation/navigrid_navigation.egg-info/SOURCES.txt'
+[3.638s] writing manifest file '../../build/navigrid_navigation/navigrid_navigation.egg-info/SOURCES.txt'
+[3.639s] running build
+[3.644s] running build_py
+[3.644s] creating /home/navab/robot-simulation/build/navigrid_navigation/build
+[3.644s] creating /home/navab/robot-simulation/build/navigrid_navigation/build/lib
+[3.644s] creating /home/navab/robot-simulation/build/navigrid_navigation/build/lib/navigrid_navigation
+[3.644s] copying navigrid_navigation/odom_tf_broadcaster.py -> /home/navab/robot-simulation/build/navigrid_navigation/build/lib/navigrid_navigation
+[3.645s] copying navigrid_navigation/__init__.py -> /home/navab/robot-simulation/build/navigrid_navigation/build/lib/navigrid_navigation
+[3.647s] running install
+[3.659s] running install_lib
+[3.694s] creating /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid_navigation
+[3.695s] copying /home/navab/robot-simulation/build/navigrid_navigation/build/lib/navigrid_navigation/odom_tf_broadcaster.py -> /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid_navigation
+[3.697s] copying /home/navab/robot-simulation/build/navigrid_navigation/build/lib/navigrid_navigation/__init__.py -> /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid_navigation
+[3.699s] byte-compiling /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid_navigation/odom_tf_broadcaster.py to odom_tf_broadcaster.cpython-312.pyc
+[3.704s] byte-compiling /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid_navigation/__init__.py to __init__.cpython-312.pyc
+[3.706s] running install_data
+[3.707s] copying resource/navigrid_navigation -> /home/navab/robot-simulation/install/navigrid_navigation/share/ament_index/resource_index/packages
+[3.714s] copying package.xml -> /home/navab/robot-simulation/install/navigrid_navigation/share/navigrid_navigation
+[3.714s] copying config/nav2_params.yaml -> /home/navab/robot-simulation/install/navigrid_navigation/share/navigrid_navigation/config
+[3.715s] copying config/slam_toolbox.yaml -> /home/navab/robot-simulation/install/navigrid_navigation/share/navigrid_navigation/config
+[3.719s] copying launch/navigation.launch.py -> /home/navab/robot-simulation/install/navigrid_navigation/share/navigrid_navigation/launch
+[3.719s] running install_egg_info
+[3.756s] Copying ../../build/navigrid_navigation/navigrid_navigation.egg-info to /home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages/navigrid_navigation-0.0.0-py3.12.egg-info
+[3.769s] running install_scripts
+[4.014s] Installing odom_tf_broadcaster script to /home/navab/robot-simulation/install/navigrid_navigation/lib/navigrid_navigation
+[4.015s] writing list of installed files to '/home/navab/robot-simulation/build/navigrid_navigation/install.log'
+[4.084s] Invoked command in '/home/navab/robot-simulation/src/navigrid_navigation' returned '0': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigrid_navigation build --build-base /home/navab/robot-simulation/build/navigrid_navigation/build install --record /home/navab/robot-simulation/build/navigrid_navigation/install.log --install-scripts $base/lib/navigrid_navigation --single-version-externally-managed install_data --force
