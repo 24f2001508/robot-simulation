@@ -10,6 +10,7 @@ setup.py
 ../../build/navigrid_safety/navigrid_safety.egg-info/zip-safe
 navigrid_safety/__init__.py
 navigrid_safety/safety_override.py
+navigrid_safety/test_scan.py
 resource/navigrid_safety
 test/test_copyright.py
 test/test_flake8.py

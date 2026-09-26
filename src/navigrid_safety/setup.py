@@ -23,8 +23,9 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
-		'safety_override = navigrid_safety.safety_override:main',
-        ],
+	'console_scripts': [
+    		'safety_override = navigrid_safety.safety_override:main',
+    		'test_scan = navigrid_safety.test_scan:main',
+	],
     },
 )

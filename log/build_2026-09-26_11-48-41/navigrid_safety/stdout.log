@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/navigrid_safety/navigrid_safety.egg-info/PKG-INFO
+writing dependency_links to ../../build/navigrid_safety/navigrid_safety.egg-info/dependency_links.txt
+writing entry points to ../../build/navigrid_safety/navigrid_safety.egg-info/entry_points.txt
+writing requirements to ../../build/navigrid_safety/navigrid_safety.egg-info/requires.txt
+writing top-level names to ../../build/navigrid_safety/navigrid_safety.egg-info/top_level.txt
+reading manifest file '../../build/navigrid_safety/navigrid_safety.egg-info/SOURCES.txt'
+writing manifest file '../../build/navigrid_safety/navigrid_safety.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages/navigrid_safety-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/navigrid_safety/navigrid_safety.egg-info to /home/navab/robot-simulation/install/navigrid_safety/lib/python3.12/site-packages/navigrid_safety-0.0.0-py3.12.egg-info
+running install_scripts
+Installing safety_override script to /home/navab/robot-simulation/install/navigrid_safety/lib/navigrid_safety
+Installing test_scan script to /home/navab/robot-simulation/install/navigrid_safety/lib/navigrid_safety
+writing list of installed files to '/home/navab/robot-simulation/build/navigrid_safety/install.log'
