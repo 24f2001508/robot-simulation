@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/navigrid_world/navigrid_world.egg-info/PKG-INFO
+writing dependency_links to ../../build/navigrid_world/navigrid_world.egg-info/dependency_links.txt
+writing entry points to ../../build/navigrid_world/navigrid_world.egg-info/entry_points.txt
+writing requirements to ../../build/navigrid_world/navigrid_world.egg-info/requires.txt
+writing top-level names to ../../build/navigrid_world/navigrid_world.egg-info/top_level.txt
+reading manifest file '../../build/navigrid_world/navigrid_world.egg-info/SOURCES.txt'
+writing manifest file '../../build/navigrid_world/navigrid_world.egg-info/SOURCES.txt'
+running build
+running build_py
+copying navigrid_world/moving_obstacle.py -> /home/navab/robot-simulation/build/navigrid_world/build/lib/navigrid_world
+running install
+running install_lib
+copying /home/navab/robot-simulation/build/navigrid_world/build/lib/navigrid_world/moving_obstacle.py -> /home/navab/robot-simulation/install/navigrid_world/lib/python3.12/site-packages/navigrid_world
+byte-compiling /home/navab/robot-simulation/install/navigrid_world/lib/python3.12/site-packages/navigrid_world/moving_obstacle.py to moving_obstacle.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/navab/robot-simulation/install/navigrid_world/lib/python3.12/site-packages/navigrid_world-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/navigrid_world/navigrid_world.egg-info to /home/navab/robot-simulation/install/navigrid_world/lib/python3.12/site-packages/navigrid_world-0.0.0-py3.12.egg-info
+running install_scripts
+Installing moving_obstacle script to /home/navab/robot-simulation/install/navigrid_world/lib/navigrid_world
+writing list of installed files to '/home/navab/robot-simulation/build/navigrid_world/install.log'

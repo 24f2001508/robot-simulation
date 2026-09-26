@@ -1,0 +1,24 @@
+[1.119s] Invoking command in '/home/navab/robot-simulation/src/navigrid_world': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigrid_world build --build-base /home/navab/robot-simulation/build/navigrid_world/build install --record /home/navab/robot-simulation/build/navigrid_world/install.log --install-scripts $base/lib/navigrid_world --single-version-externally-managed install_data
+[1.331s] running egg_info
+[1.344s] writing ../../build/navigrid_world/navigrid_world.egg-info/PKG-INFO
+[1.345s] writing dependency_links to ../../build/navigrid_world/navigrid_world.egg-info/dependency_links.txt
+[1.345s] writing entry points to ../../build/navigrid_world/navigrid_world.egg-info/entry_points.txt
+[1.346s] writing requirements to ../../build/navigrid_world/navigrid_world.egg-info/requires.txt
+[1.346s] writing top-level names to ../../build/navigrid_world/navigrid_world.egg-info/top_level.txt
+[1.374s] reading manifest file '../../build/navigrid_world/navigrid_world.egg-info/SOURCES.txt'
+[1.374s] writing manifest file '../../build/navigrid_world/navigrid_world.egg-info/SOURCES.txt'
+[1.375s] running build
+[1.375s] running build_py
+[1.375s] copying navigrid_world/moving_obstacle.py -> /home/navab/robot-simulation/build/navigrid_world/build/lib/navigrid_world
+[1.379s] running install
+[1.384s] running install_lib
+[1.398s] copying /home/navab/robot-simulation/build/navigrid_world/build/lib/navigrid_world/moving_obstacle.py -> /home/navab/robot-simulation/install/navigrid_world/lib/python3.12/site-packages/navigrid_world
+[1.399s] byte-compiling /home/navab/robot-simulation/install/navigrid_world/lib/python3.12/site-packages/navigrid_world/moving_obstacle.py to moving_obstacle.cpython-312.pyc
+[1.400s] running install_data
+[1.400s] running install_egg_info
+[1.414s] removing '/home/navab/robot-simulation/install/navigrid_world/lib/python3.12/site-packages/navigrid_world-0.0.0-py3.12.egg-info' (and everything under it)
+[1.414s] Copying ../../build/navigrid_world/navigrid_world.egg-info to /home/navab/robot-simulation/install/navigrid_world/lib/python3.12/site-packages/navigrid_world-0.0.0-py3.12.egg-info
+[1.416s] running install_scripts
+[1.531s] Installing moving_obstacle script to /home/navab/robot-simulation/install/navigrid_world/lib/navigrid_world
+[1.533s] writing list of installed files to '/home/navab/robot-simulation/build/navigrid_world/install.log'
+[1.576s] Invoked command in '/home/navab/robot-simulation/src/navigrid_world' returned '0': PYTHONPATH=/home/navab/robot-simulation/build/navigrid_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/navab/robot-simulation/install/navigrid_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigrid_world build --build-base /home/navab/robot-simulation/build/navigrid_world/build install --record /home/navab/robot-simulation/build/navigrid_world/install.log --install-scripts $base/lib/navigrid_world --single-version-externally-managed install_data
